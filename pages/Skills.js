@@ -16,7 +16,7 @@ const Skills = () => {
           <a class="navbar-item active" href="#">
             <i class="fa-solid fa-gear"></i> Skills
           </a>
-          <a class="navbar-item" href="#">
+          <a class="navbar-item" href="/Achievements">
             <i class="fa-solid fa-trophy"></i> Achievements
           </a>
         </nav>
