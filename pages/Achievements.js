@@ -23,7 +23,7 @@ const Achievements = () => {
 
         <ul class="info-box">
             <li class="info-box-item">Completed 
-            <a id="cs50-link" href="cshttps://www.edx.org/cs50" target="_blank"> CS50X</a>
+              <a id="cs50-link" href="https://www.edx.org/cs50" target="_blank"> CS50X</a>
             </li>
           </ul>
       </main>
