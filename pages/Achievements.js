@@ -23,7 +23,9 @@ const Achievements = () => {
 
         <h1>Achievements</h1>
         <ul class="info-box">
-            <li class="info-box-item">Country: Malaysia</li>fl
+            <li class="info-box-item">Completed 
+            <a id="cs50-link" href="cshttps://www.edx.org/cs50" target="_blank">CS50X</a>
+            </li>
           </ul>
       </main>
     </div>

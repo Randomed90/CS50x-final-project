@@ -171,6 +171,11 @@ button.do-btn:hover {
   background-color: #00027c;
 }
 
+#cs50-link {
+  color: red;
+  text-decoration: none;
+}
+
 @keyframes slideInRight {
   from {
     opacity: 0;
