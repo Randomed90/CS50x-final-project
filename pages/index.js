@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-import Profile from 'pages/Profile'; // Import the Profile component
 import Header from '@components/Header';
 
 export default function Home() {
