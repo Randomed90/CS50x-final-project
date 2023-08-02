@@ -35,7 +35,6 @@ export default function Home() {
         <h1 className={`header ${isCool ? 'cool' : ''}`} style={isCool ? { color: 'white' } : {}}>
           I'm Muhammad Al Fatih, a 16yr old self-taught web developer from Malaysia, passionate about low-level programming
         </h1>
-        {/* Add the event handler to the button */}
         <button className="do-btn" id="myButton" type="button" onClick={handleButtonClick}>
           Do something cool
         </button>

@@ -104,24 +104,16 @@ button.do-btn:hover {
   }
 }
 
-.navbar {
-  top: 1.9vh;
-  width: 100vw;
-  height: auto;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  border: 2px solid red;
-}
 
-/* .navbar {
+.navbar {
   top: -0.5vh;
   width: 100vw;
   height: 8vh;
   position: absolute;
+  /* background-color: gray; */
   display: flex;
   align-items: center;
-} */
+}
 
 .navbar-item {
   font-size: 1.3em;
