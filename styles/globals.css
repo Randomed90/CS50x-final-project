@@ -1,13 +1,35 @@
 html,
 body {
+  /* background-image: url("https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=996&t=st=1690948617~exp=1690949217~hmac=e2b42503ab1d567bd83b0062061573437a4a12bd25f411864601ab74927d0a1a"); */
+  background-image: url("https://i.ibb.co/7JHMyVB/beautiful-shining-stars-night-sky.jpg");
+  background-size: contain;
+  background-color: black;
   padding: 0;
   margin: 0;
+  overflow-y: hidden;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {
   box-sizing: border-box;
+  list-style: none;
+}
+
+.header {
+  color: white;
+  animation: slideInTop 1.2s;
+  font-size: 2.3em;
+  max-width: 80vw;
+  text-align: center;
+  word-wrap: break-word;
+  transition: all .4s;
+}
+
+.header:hover {
+  /* border: 1px solid white; */
+  transform: translateY(-10px) scale(101%);
+  border-radius: 10px;
 }
 
 main {
@@ -32,4 +54,203 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.active {
+  color: black !important;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 3px 3px darkgray;
+}
+
+button.do-btn {
+  box-shadow: 6px 6px darkgray;
+  color: white;
+  background-color: transparent;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  border: 1px solid lightgrey;
+  font-size: 2em;
+  padding: 8px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  animation: slideInRight 1s;
+}
+
+button.do-btn:hover {
+  transform: translateY(-10px);
+  background-color: lightgray;
+  color: black;
+  box-shadow: none;
+}
+
+/* Define the styles for the "cool" class */
+.header.cool {
+  animation: rotateForever 2s linear 2;
+  color: white;
+  border-radius: 10px;
+}
+
+@keyframes rotateForever {
+  50% {
+    /* transform: rotate(180deg) scale(100%); */
+    transform: translateY(0);
+    box-shadow: 0 20px white;
+    color: white;
+  }
+  50% {
+    /* transform: rotate(-180deg) scale(50%); */
+    transform: translateY(-90px);
+    color: transparent;
+  }
+}
+
+
+.navbar {
+  top: -0.5vh;
+  width: 100vw;
+  height: 8vh;
+  position: absolute;
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  font-size: 1.3em;
+  font-family: 'Roboto Mono', monospace;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px darkgray;
+  text-align: center;
+  /* box-shadow:8px 8px black; */
+  transition: all .3s;
+}
+
+.navbar-item:hover {
+  transform: translateY(-2px) translateX(-1px);
+  color: black;
+  background-color: lightgray;
+  box-shadow: none;
+}
+
+.info-box {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 130%;
+  border: 1px solid white;
+  background-color: hsla(0, 0%, 10%, .4);
+  border-radius: 10px;
+  box-shadow: 4px 4px darkgray;
+
+}
+
+.info-box-item {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+
+.info-link {
+  text-decoration: none;
+  color: #5255ff;
+  transition: all .4s;
+  border-radius: 10px;
+}
+
+.info-link:hover {
+  box-shadow: 15px 0 #00027c;
+  color: #aaacff;
+  text-decoration: underline;
+  background-color: #00027c;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .header {
+    font-size: 1.5em !important;
+  }
+
+  button.do-btn {
+    font-size: 1.5em;
+  }
+
+  .info-link {
+    font-size: 1.3em;
+  }
+
+  .navbar {
+    top: 1.8vh !important;
+    width: 100vw;
+    height: 7vh;
+    font-size: 0.75em;
+  }
+  .navbar-item {
+    padding: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 3px 3px white;
+    transition: all .3s;
+  }
+}
+
+@media screen and (max-width: 347px) {
+  .header {
+    font-size: 1em;
+  }
+
+  button.do-btn {
+    font-size: 1.2em;
+  }
+
+  .navbar {
+    top: 1.3vh !important;
+    width: 100vw;
+    height: 7vh;
+    font-size: 0.75em;
+  }
+  .navbar-item {
+    padding: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 3px 3px white;
+    transition: all .3s;
+  }
 }
