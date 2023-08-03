@@ -1,49 +1,46 @@
-# Portfolio Website
+# Responsive Portfolio Website with CSS Effects
 #### Video Demo:  https://www.youtube.com/watch?v=A1gKyKHBeEw&ab_channel=Randomed
-### Description:
 
-# **Idea**
+#### Description:
 
-### When first starting on this project, the first thing i needed was an idea of what to create, while trying to figure out what i was going to make, I realised a web page is a great option beacuse web development was the thing that was most interesting to discover and play with, and another reason is that I really like designing things and a somewhat perfectionst on certain things and I thought to my self "this is a great idea"
+## **Idea**
 
-# **What to make the website about**
+#### When I first started this project, the first thing I needed was an idea of what to create. While trying to figure out what I was going to make, I realized a web page is a great option because web development interested me the most and was fun to play with. Another reason is that I enjoy designing things and am somewhat of a perfectionist on certain aspects. So, I thought, "this is a great idea."
 
-### After choosing the option to make a website, I needed to choose what to make the website about, and the first thing that came to mind was a Fitness tracking website, complete with a register and a log in system with, a page where you can input the days that you train and see a chart of progress, and an exercise database (taken from somewhere) to give the user a wide variety of options to choose from (with sets and reps included). But after spending around 10+ hours working on the website and suddenly realising that the only thing that have actually implemented was buttons that redirect to the different pages (register, log in, profile, about, exercise database etc.) and the CSS designs for it. Seeing this i decided to make a different website, a portfolio website with the bare minimun features and functions so that i can focus on the front-end part of designing things and adding effects while also getting sucked in into the CSS and HTML youtube rabbithole.
+## **What the Website is About**
 
+#### After choosing to make a website, I needed to decide its topic. The first thing that came to mind was a Fitness Tracking Website, complete with a registration and login system, a page to input training days and view progress charts, and an exercise database (sourced from somewhere) with a wide variety of options (including sets and reps). However, after spending around 10+ hours on the website, I realized that I had only implemented buttons that redirected to different pages (register, login, profile, about, exercise database, etc.) and the CSS designs for it. Seeing this, I decided to change the website idea to a portfolio website with minimal features and functions, so I could focus on designing the front-end, adding effects, and diving into the CSS and HTML YouTube rabbit hole.
 
-# **Making the portfolio website**
+## **Creating the Portfolio Website**
 
-### 4 days have passed since last watching the final lecture, 1 day after starting over. Finally deciding to start working on the project after watching a couple videos on CSS and HTML and reading the w3schools documentation. I opened my code editor, in front i saw a blank page and excitedly started coding, after a few hours i looked back on my code "so unorganized and messy" I thought to my self, and I hesitantly decide to reorganize my code knowing that I will inevitably spend a couple hours on it being that i don't like to stop doing a task i enjoy until it is perfect.
+#### Four days had passed since watching the final lecture, and one day after starting over, I finally decided to work on the project after watching CSS and HTML tutorial videos and reading the w3schools documentation. I opened my code editor, saw a blank page, and excitedly started coding. After a few hours, I looked back at my code and thought, "it's so unorganized and messy." I hesitantly decided to reorganize my code, knowing that I would inevitably spend a couple of hours on it, as I don't like to stop a task I enjoy until it's perfect.
 
-### After spending 2 days of "Reorganizing" it, i have spent no more than 11+ hours on it and have made a couple changes to it, inclduing changing to a new code editor, using a whole new framework, trying to use React for js watching another couple of youtube videos of examples of stunning portfolios made by front-end professionals, I've finally finished it, or so i thought.
+#### After spending two days "reorganizing" it, I spent no more than 11+ hours on it and made a few changes, including switching to a new code editor and using a whole new framework, trying to use React for JavaScript. I watched a couple more YouTube videos with stunning portfolio examples made by front-end professionals. Finally, I finished it, or so I thought.
 
-# **The second redo**
+## **The Second Redo**
 
-### Finishing the website felt great, I have finally finsished the project that i spent so many needless hours of work on, I get ready to re-check everything and to screen record. But there was an issue, the issue being that i didn't like the design of the buttons and thought "this surely wouldn't take long" and little did i know how wrong i was about that.
+#### Finishing the website felt great, but I realized I didn't like the design of the buttons and thought, "this surely wouldn't take long to fix." Little did I know how wrong I was about that.
 
-# **The third and final redo**
+## **The Third and Final Redo**
 
-### 8 hours passed since making a *"small change to the buttons"* I still am unsatisfied about the design. So i decide to start from scratch again.
+#### Eight hours passed since making a "small change to the buttons," and I was still unsatisfied with the design. So, I decided to start from scratch again.
 
-### I was getting a bit tired of redoing so i went back to the vscode cs50 ide codespace to work on it since it is so easy to work on and having over 3 months of experience using it, safe to say, I was kind of way better at it and more comfortable with it compred to other code editors.
+#### Feeling a bit tired of redoing it, I went back to the vscode cs50 IDE codespace to work on it since it's so easy to use, and I have over 3 months of experience with it. Safe to say, I was way better and more comfortable with it compared to other code editors.
 
-### And there I was warmly greeted with a blank untitled page to work with again, with high motivation, confident that this was it, this will be my final redo and no more, I worked on it tirelessly hours at a time, completely stuck to the screen and enjoying every part of it.
+#### There I was warmly greeted with a blank untitled page to work with again. With high motivation and confidence that this was it, this will be my final redo, I worked on it tirelessly for hours at a time, completely absorbed in the process and enjoying every part of it.
 
-### And after a bit of time, I was 90% done with the project and decide to go to sleep and finish it all the next day.
+#### After some time, I was 90% done with the project and decided to go to sleep and finish it all the next day.
 
+## **Finishing it All**
 
-# **Finishing it all**
+#### After waking up and making my morning coffee, I ran the last bit of the marathon to complete the project.
 
-### After waking up and making my morning coffee, I ran the last bit of the marathon left to complete the project.
+#### And as night approached, I finished my project, barely able to hide my smile after completing it.
 
-### And as night approaches, i finish my project.  Barely being able to hide my smile after finishing it.
+#### And with that, I have finished the project and am currently working on the README.md description as I'm typing this.
 
-### And with that, i have finished the project and am currently working on the README.md description as I'm typing this.
+## *Final Say*
 
-# *Final say*
+#### - This course was unbelievably amazing; it can't be described in my words. It helped me a lot in understanding the basic concepts of computer science and will aid me in learning more computer science concepts in the future.
 
-### I have to say this course was unbelievably amazing that it can't be described in my words, it helped me a lot with understanding the basic concepts of computer science and aid me to learning more computer science concepts in the future.
-
-### I have nothing else to say so with that
-
-## My name is Muhammad Al Fatih and This was my CS50 final project submission
+#### - My name is Muhammad Al Fatih, and this was my CS50 final project submission.
